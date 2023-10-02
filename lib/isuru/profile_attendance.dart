@@ -36,18 +36,18 @@ class ProfileAcademicTabTableRow extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.symmetric(vertical: 2),
                       child: Text(item['module_code'].toString().toUpperCase(),
-                          style: const TextStyle(fontSize: 12.0)),
+                          
                     ),
                     Padding(
                       padding: const EdgeInsets.symmetric(vertical: 2),
                       child: Text(item['module_title'].toString(),
-                          style: const TextStyle(fontSize: 12.0)),
+                          
                     ),
                     Padding(
                       padding: const EdgeInsets.symmetric(vertical: 2),
                       child: Text(
                           item['module_result'].toString().toUpperCase(),
-                          style: const TextStyle(fontSize: 12.0)),
+                          
                     ),
                   ],
                 ),
